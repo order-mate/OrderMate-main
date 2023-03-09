@@ -11,7 +11,7 @@ struct MakeAccountView: View {
     @Binding var LoginState: Bool
     @State var myIdString: String = ""
     @State var myPasswordString: String = ""
-    @State var isSecureMode: Bool = false
+    @State var isSecureMode: Bool = true
     var body: some View {
         VStack {
             Text("MakeAccountView")
