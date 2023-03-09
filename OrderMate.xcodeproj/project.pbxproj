@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89576E99E1383213B9D2C415 /* Pods_OrderMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23544D57D0C6C832C81C54E /* Pods_OrderMate.framework */; };
 		BA3F37EF29B5C989009BF7FE /* RoomStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F37EE29B5C989009BF7FE /* RoomStruct.swift */; };
 		BA3F37F329B5D120009BF7FE /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F37F229B5D120009BF7FE /* RoomView.swift */; };
 		BA3F37F529B5D197009BF7FE /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F37F429B5D197009BF7FE /* ListView.swift */; };
@@ -17,15 +18,18 @@
 		BAF470B429B2555200F242EF /* RoomDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF470B329B2555200F242EF /* RoomDataManager.swift */; };
 		BAF470B929B2566C00F242EF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BAF470B829B2566C00F242EF /* FirebaseFirestore */; };
 		BAF470BB29B2566C00F242EF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BAF470BA29B2566C00F242EF /* FirebaseFirestoreSwift */; };
-		E40FB23E29B6208F00A1A4C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E40FB23D29B6208F00A1A4C2 /* GoogleService-Info.plist */; };
 		E40FB24029B625E400A1A4C2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FB23F29B625E400A1A4C2 /* MainView.swift */; };
 		E40FB24229B625F200A1A4C2 /* StartPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FB24129B625F200A1A4C2 /* StartPageView.swift */; };
 		E40FB24429B6260200A1A4C2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FB24329B6260200A1A4C2 /* LoginView.swift */; };
 		E40FB24629B6296100A1A4C2 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40FB24529B6296100A1A4C2 /* Setting.swift */; };
+		ED4CDEF229BB76B800F21D30 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4CDEF129BB76B800F21D30 /* LoginModel.swift */; };
+		ED4CDEF629BB796100F21D30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4CDEF529BB796100F21D30 /* GoogleService-Info.plist */; };
 		F37C7D0029B98489004B011C /* MakeAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C7CFF29B98489004B011C /* MakeAccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EBEA1DD1CFBCC7EC8E35D5D /* Pods-OrderMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMate.release.xcconfig"; path = "Target Support Files/Pods-OrderMate/Pods-OrderMate.release.xcconfig"; sourceTree = "<group>"; };
+		570D1EC1EC03FCAF15008861 /* Pods-OrderMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderMate.debug.xcconfig"; path = "Target Support Files/Pods-OrderMate/Pods-OrderMate.debug.xcconfig"; sourceTree = "<group>"; };
 		BA3F37EE29B5C989009BF7FE /* RoomStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStruct.swift; sourceTree = "<group>"; };
 		BA3F37F229B5D120009BF7FE /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		BA3F37F429B5D197009BF7FE /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -35,11 +39,14 @@
 		BAF470A729B21C0D00F242EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF470AA29B21C0D00F242EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAF470B329B2555200F242EF /* RoomDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDataManager.swift; sourceTree = "<group>"; };
-		E40FB23D29B6208F00A1A4C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E40FB23F29B625E400A1A4C2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E40FB24129B625F200A1A4C2 /* StartPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageView.swift; sourceTree = "<group>"; };
 		E40FB24329B6260200A1A4C2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E40FB24529B6296100A1A4C2 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		ED3AAB7829BC17A80031A922 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		ED4CDEF129BB76B800F21D30 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		ED4CDEF529BB796100F21D30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F23544D57D0C6C832C81C54E /* Pods_OrderMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrderMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37C7CFF29B98489004B011C /* MakeAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,17 +57,39 @@
 			files = (
 				BAF470B929B2566C00F242EF /* FirebaseFirestore in Frameworks */,
 				BAF470BB29B2566C00F242EF /* FirebaseFirestoreSwift in Frameworks */,
+				89576E99E1383213B9D2C415 /* Pods_OrderMate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E57CB12C19A584BD9CA1776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				570D1EC1EC03FCAF15008861 /* Pods-OrderMate.debug.xcconfig */,
+				3EBEA1DD1CFBCC7EC8E35D5D /* Pods-OrderMate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE03A492D73591D33035D364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F23544D57D0C6C832C81C54E /* Pods_OrderMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAF4709729B21C0C00F242EF = {
 			isa = PBXGroup;
 			children = (
+				ED4CDEF529BB796100F21D30 /* GoogleService-Info.plist */,
+				ED3AAB7829BC17A80031A922 /* info.plist */,
 				BAF470A229B21C0C00F242EF /* OrderMate */,
 				BAF470A129B21C0C00F242EF /* Products */,
+				2E57CB12C19A584BD9CA1776 /* Pods */,
+				AE03A492D73591D33035D364 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,18 +104,10 @@
 		BAF470A229B21C0C00F242EF /* OrderMate */ = {
 			isa = PBXGroup;
 			children = (
-				E40FB23D29B6208F00A1A4C2 /* GoogleService-Info.plist */,
-				BAF470B329B2555200F242EF /* RoomDataManager.swift */,
-				E40FB23F29B625E400A1A4C2 /* MainView.swift */,
-				BA3F37EE29B5C989009BF7FE /* RoomStruct.swift */,
 				BAF470A329B21C0C00F242EF /* OrderMateApp.swift */,
-				E40FB24129B625F200A1A4C2 /* StartPageView.swift */,
-				E40FB24329B6260200A1A4C2 /* LoginView.swift */,
-				F37C7CFF29B98489004B011C /* MakeAccountView.swift */,
-				BAF470A529B21C0C00F242EF /* ContentView.swift */,
-				BA3F37F229B5D120009BF7FE /* RoomView.swift */,
-				BA3F37F429B5D197009BF7FE /* ListView.swift */,
-				E40FB24529B6296100A1A4C2 /* Setting.swift */,
+				E40FB23F29B625E400A1A4C2 /* MainView.swift */,
+				ED4CDEF029BB769200F21D30 /* DataModel */,
+				ED4CDEF429BB770F00F21D30 /* ContentsView */,
 				BAF470A729B21C0D00F242EF /* Assets.xcassets */,
 				BAF470A929B21C0D00F242EF /* Preview Content */,
 			);
@@ -101,6 +122,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		ED4CDEF029BB769200F21D30 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BAF470B329B2555200F242EF /* RoomDataManager.swift */,
+				E40FB24529B6296100A1A4C2 /* Setting.swift */,
+				ED4CDEF129BB76B800F21D30 /* LoginModel.swift */,
+				ED4CDEF329BB76E400F21D30 /* LoginView */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		ED4CDEF329BB76E400F21D30 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				E40FB24129B625F200A1A4C2 /* StartPageView.swift */,
+				E40FB24329B6260200A1A4C2 /* LoginView.swift */,
+				F37C7CFF29B98489004B011C /* MakeAccountView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		ED4CDEF429BB770F00F21D30 /* ContentsView */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F37EE29B5C989009BF7FE /* RoomStruct.swift */,
+				BAF470A529B21C0C00F242EF /* ContentView.swift */,
+				BA3F37F229B5D120009BF7FE /* RoomView.swift */,
+				BA3F37F429B5D197009BF7FE /* ListView.swift */,
+			);
+			path = ContentsView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF470AE29B21C0D00F242EF /* Build configuration list for PBXNativeTarget "OrderMate" */;
 			buildPhases = (
+				9239214849D51A7FFE7FEE63 /* [CP] Check Pods Manifest.lock */,
 				BAF4709C29B21C0C00F242EF /* Sources */,
 				BAF4709D29B21C0C00F242EF /* Frameworks */,
 				BAF4709E29B21C0C00F242EF /* Resources */,
+				C433D8BB6F733D53DAE7FE2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,12 +222,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF470AB29B21C0D00F242EF /* Preview Assets.xcassets in Resources */,
-				E40FB23E29B6208F00A1A4C2 /* GoogleService-Info.plist in Resources */,
 				BAF470A829B21C0D00F242EF /* Assets.xcassets in Resources */,
+				ED4CDEF629BB796100F21D30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9239214849D51A7FFE7FEE63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrderMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C433D8BB6F733D53DAE7FE2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrderMate/Pods-OrderMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrderMate/Pods-OrderMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrderMate/Pods-OrderMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAF4709C29B21C0C00F242EF /* Sources */ = {
@@ -180,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F37C7D0029B98489004B011C /* MakeAccountView.swift in Sources */,
+				ED4CDEF229BB76B800F21D30 /* LoginModel.swift in Sources */,
 				E40FB24629B6296100A1A4C2 /* Setting.swift in Sources */,
 				BAF470A629B21C0C00F242EF /* ContentView.swift in Sources */,
 				E40FB24029B625E400A1A4C2 /* MainView.swift in Sources */,
@@ -312,15 +410,17 @@
 		};
 		BAF470AF29B21C0D00F242EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570D1EC1EC03FCAF15008861 /* Pods-OrderMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OrderMate/Preview Content\"";
-				DEVELOPMENT_TEAM = 33DNUM53Q8;
+				DEVELOPMENT_TEAM = F7THTSRVL7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +441,7 @@
 		};
 		BAF470B029B21C0D00F242EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBEA1DD1CFBCC7EC8E35D5D /* Pods-OrderMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -350,6 +451,7 @@
 				DEVELOPMENT_TEAM = 33DNUM53Q8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -25,7 +25,7 @@ struct StartPageView: View {
                         .foregroundColor(Color.black)
                         .font(.system(size: 20))
                         .frame(width: 320, height: 75)
-                        .background(Color.orange)
+                        .background(Color("green 0"))
                         .cornerRadius(20)
                 }
                 NavigationLink {
@@ -36,7 +36,7 @@ struct StartPageView: View {
                         .foregroundColor(Color.black)
                         .font(.system(size: 20))
                         .frame(width: 320, height: 75)
-                        .background(Color.yellow)
+                        .background(Color("green 0"))
                         .cornerRadius(20)
                 }
                 
