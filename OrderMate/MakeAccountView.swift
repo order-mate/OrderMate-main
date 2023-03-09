@@ -1,22 +1,20 @@
 //
-//  LoginView.swift
-//  iosOrdermate
+//  MakeAccountView.swift
+//  OrderMate
 //
-//  Created by cnu on 2023/03/02.
+//  Created by cnu on 2023/03/09.
 //
 
 import SwiftUI
 
-struct LoginView: View {
+struct MakeAccountView: View {
     @Binding var LoginState: Bool
-    
     @State var myIdString: String = ""
     @State var myPasswordString: String = ""
     @State var isSecureMode: Bool = false
-    
     var body: some View {
         VStack {
-            Text("LoginView")
+            Text("MakeAccountView")
             TextField("ID space", text: $myIdString)
                 .textFieldStyle(.roundedBorder)
             HStack {
@@ -42,10 +40,9 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct MakeAccountView_Previews: PreviewProvider {
     @State static var LoginState = false
-    
     static var previews: some View {
-        LoginView(LoginState: $LoginState, myIdString: "IDIDIDID", myPasswordString: "PASSPASS", isSecureMode: false)
+        MakeAccountView(LoginState: $LoginState, myIdString: "IDIDIDID", myPasswordString: "PASSPASS", isSecureMode: false)
     }
 }

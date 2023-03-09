@@ -29,7 +29,7 @@ struct StartPageView: View {
                         .cornerRadius(20)
                 }
                 NavigationLink {
-                    LoginView(LoginState: $LoginState)
+                    MakeAccountView(LoginState: $LoginState)
                 } label: {
                     Text("회원가입")
                         .fontWeight(.bold)
